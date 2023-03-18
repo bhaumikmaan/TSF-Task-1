@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=kanit:wght@100&display=swap);
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'kanit', sans-serif;
+    background-color: #000000d1;
+}
+.bg-light{
+background-color: #020303;
+}
+.nav-link a:hover{
+background-color: #000101;
+}
+.navbar{
+    background-color: #7A7D7D;
+}
+.navbar-brand{
+    font-family: 'Oswald', impact;
+    font-size: 1.5rem;
+    color: #000000!important;
+}
+#welcome
+{
+    font-size: 80px;
+}
+.nav-link{
+    color: #020404!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:#FE7F2D;
+}
+.hero-content{
+    height: 100vh;
+    background-color: #FE7F2D;
+    color: #080b0b;
+    padding: 3rem;
+    border-top-left-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+    margin-bottom: 1vh;
+}
+
+.i1{
+    height: 80vh;
+    width: 80%;
+}
+
+footer{
+    background-color:#7A7D7D;
+    flex-direction: column;
+   align-items: center; 
+   /* Center an element */
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+.linkedin{
+    color: black;
+}
+
+@media only screen and (max-width: 766px) {
+    .i1 {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #FF521B;
+    color: #b2f6ee!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #f94e3a;
+    
+}
+.get-started-content{
+    height: 60vh;
+    background-color: #f94e3a;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-top-right-radius: 35rem;
+    border-bottom-left-radius: 35rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #040403;
+    color: #f94e3a!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #b60a01;
+    text-decoration: none;
+}
